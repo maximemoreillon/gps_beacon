@@ -9,7 +9,8 @@ The beacon communicates with the app using xbee pro modules.
 * Xbee pro
 
 ## Schematic
-Coming soon
+![alt text](https://moreillon.duckdns.org/projects/images/gps_beacon_v2_schema.png)
 
 ## Requirements
 * TinyGPS++ library
+

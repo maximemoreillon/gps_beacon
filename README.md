@@ -17,8 +17,8 @@ The beacon communicates with the app using xbee pro modules.
 
 ## Payload description
 
-byte 0: battery percent
-bate 1: Sattelite count
-byte 2-5: Latitude * 10000 (long)
-byte 6-9: Longitude * 10000 (long)
+* byte 0: battery percent
+* bate 1: Sattelite count
+* byte 2-5: Latitude * 10000 (long)
+* byte 6-9: Longitude * 10000 (long)
 

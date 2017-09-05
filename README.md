@@ -1,4 +1,4 @@
-# gps_beacon
+# GPS Beacon
 
 An arduibo based GPS beacon that can be tracked using an android app.
 The beacon communicates with the app using xbee pro modules.
@@ -13,4 +13,12 @@ The beacon communicates with the app using xbee pro modules.
 
 ## Requirements
 * TinyGPS++ library
+* Software Serial
+
+## Payload description
+
+byte 0: battery percent
+bate 1: Sattelite count
+byte 2-5: Latitude * 10000 (long)
+byte 6-9: Longitude * 10000 (long)
 

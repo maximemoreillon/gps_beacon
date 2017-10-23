@@ -1,12 +1,12 @@
 # GPS Beacon
 
-An arduibo based GPS beacon that can be tracked using an android app.
-The beacon communicates with the app using xbee pro modules.
+An Arduino based GPS beacon that can uses an XBee Pro transciever to broadcast its location.
 
 ## Parts list
 * Arduino pro mini 3.3V
 * U-blox NEO-6M GPS
-* Xbee pro
+* Xbee pro with adapter board
+* 14500 Li-ion battery
 
 ## Schematic
 ![alt text](https://moreillon.duckdns.org/projects/images/gps_beacon_v2_schema.png)

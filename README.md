@@ -9,8 +9,7 @@ An Arduino based GPS beacon that can uses an XBee Pro transciever to broadcast i
 * 14500 Li-ion battery
 
 ## Schematic
-Unavailable at the moment
-
+![Alt text](http://maximemoreillon.com/images/projects/gps_tracker/xbee/gps_beacon_xbee_schema.png)
 ## Requirements
 * TinyGPS++ library
 * Software Serial
